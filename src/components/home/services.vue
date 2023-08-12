@@ -49,6 +49,8 @@
 
 <script setup>
 import { reactive } from "vue";
+
+import sprinkler from '@/assets/products-services/fire-sprinkler.png';
 const limitDescription = (desc) => {
   const limitedDesc = desc.slice(0, 100).trim();
 
@@ -61,7 +63,7 @@ const productsServices = reactive([
     description:
       "Fire sprinkler systems are designed to automatically spray water onto a fire with specified patterns at predetermined temperatures. They are highly reliable and effective in reducing the risk of death in case of a fire by up to 75%. This, of course, is only true for systems that have been designed and installed properly. Without your fire protection system in working order, a small fire that could have been put out can quickly turn into an uncontrollable blaze.",
     link: "/design-&-installation",
-    image: "@/assets/products-services/fire-sprinkler.png",
+    image: sprinkler,
   },
 
   {
