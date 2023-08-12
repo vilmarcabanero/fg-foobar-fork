@@ -18,7 +18,7 @@
           xl:text-page-content-xl
           lg:text-page-content-lg 
           md:text-page-content-md 
-          text-page-content-sm">
+          text-page-content-sm"> 
 
           According to Murphy’s Law: anything that can go wrong will go wrong. Conducting periodic preventive maintenance
           is crucial because the lack of it can result in costly repairs and system impairment. However, many facility

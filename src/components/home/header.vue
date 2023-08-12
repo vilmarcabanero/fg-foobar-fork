@@ -49,18 +49,18 @@ export default {
     return {
       contents: [
         {
-          image: "@/assets/header-images/books.png",
+          image: require("@/assets/header-images/books.png"),
           // link: '/testimonials'
           mainText: "Safeguard Your Building and Save Money",
           subText:
             "Download our simplified comprehensive eBook on Fire Protection Maintenance for Facility Managers.",
           dataAos: "fade-in",
           btnText: "Click Here to Download",
-          link: "/#",
+          link: "/#", 
         },
 
         {
-          image: "@/assets/header-images/woman-corporate-attire.png",
+          image: require("@/assets/header-images/woman-corporate-attire.png"),
           // link: '/testimonials',
           mainText: "Free Online Resources",
           subText:
@@ -70,7 +70,7 @@ export default {
           link: "/#",
         },
         {
-          image: "@/assets/header-images/engineer-with-computer.png",
+          image: require("@/assets/header-images/engineer-with-computer.png"),
           // link: '/testimonials'
           mainText: "Science-Based Fire Safety",
           subText:
