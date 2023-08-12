@@ -54,7 +54,6 @@ import gruppoEms from "@/assets/feature-projects-images/gruppo-ems-inc.png";
 import clifton from "@/assets/feature-projects-images/tagaytay-clifton-resort-suites.png";
 import ayala from "@/assets/feature-projects-images/the-columns-ayala.png";
 import toyotaIsabela from "@/assets/feature-projects-images/toyota-cordon-isabela.png";
-import clifton from "@/assets/feature-projects-images/tagaytay-clifton-resort-suites.png";
 import aguila from "@/assets/feature-projects-images/PL-Aguila-Manufacturing-Inc.png";
 import toyotaTuguegarao from "@/assets/feature-projects-images/toyota-tuguegarao.png";
 import victoriaTowes from "@/assets/feature-projects-images/victoria-towers.png";
