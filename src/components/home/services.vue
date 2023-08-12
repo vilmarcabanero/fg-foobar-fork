@@ -61,7 +61,7 @@ const productsServices = reactive([
     description:
       "Fire sprinkler systems are designed to automatically spray water onto a fire with specified patterns at predetermined temperatures. They are highly reliable and effective in reducing the risk of death in case of a fire by up to 75%. This, of course, is only true for systems that have been designed and installed properly. Without your fire protection system in working order, a small fire that could have been put out can quickly turn into an uncontrollable blaze.",
     link: "/design-&-installation",
-    image: "./src/assets/products-services/fire-sprinkler.png",
+    image: "@/assets/products-services/fire-sprinkler.png",
   },
 
   {
@@ -69,7 +69,7 @@ const productsServices = reactive([
     description:
       "Fire alarm systems play an important role in providing life safety. These systems detect smoke, fire, and other hazardous conditions and provide notification to occupants and responders, making buildings safer in the event of an emergency.",
     link: "/design-&-installation-fire-alarm",
-    image: "./src/assets/products-services/fire-alarm.png",
+    image: "@/assets/products-services/fire-alarm.png",
   },
 
   {
@@ -79,7 +79,7 @@ const productsServices = reactive([
           rooms, telecommunication facilities, and areas where water suppression is not
           desirable.`,
     link: "/clean-agent-extinguishing-system",
-    image: "./src/assets/fire-sprinkler-&-suppression/clean-agent-extinguisher.png",
+    image: "@/assets/fire-sprinkler-&-suppression/clean-agent-extinguisher.png",
   },
 
   {
@@ -90,7 +90,7 @@ const productsServices = reactive([
           sprinklers, standpipe systems can play an important role in building fire safety
           by serving as a backup for and complement to sprinklers.`,
     link: "/standpipe-&-hose-system",
-    image: "./src/assets/fire-sprinkler-&-suppression/standpipe-&-hose-system.png",
+    image: "@/assets/fire-sprinkler-&-suppression/standpipe-&-hose-system.png",
   },
 
   {
@@ -99,7 +99,7 @@ const productsServices = reactive([
           areas for firefighters to access a water source. Its purpose is to promptly
           provide the necessary water for firefighters to put out fires.`,
     link: "/fire-hydrant",
-    image: "./src/assets/fire-sprinkler-&-suppression/fire-hydrant.png",
+    image: "@/assets/fire-sprinkler-&-suppression/fire-hydrant.png",
   },
 
   {
@@ -108,7 +108,7 @@ const productsServices = reactive([
           sources. Dedicated fire pumps for fire protection use are more compact, more
           reliable, and easier to maintain.`,
     link: "/fire-pumps",
-    image: "./src/assets/fire-sprinkler-&-suppression/fire-pumps.png",
+    image: "@/assets/fire-sprinkler-&-suppression/fire-pumps.png",
   },
 
   {
@@ -120,14 +120,14 @@ const productsServices = reactive([
           containing computers or communications equipment, museums, and facilities where
           inadvertent water leakage from system piping is of major concern.`,
     link: "/deluge-&-preaction",
-    image: "./src/assets/fire-sprinkler-&-suppression/deluge-preaction.png",
+    image: "@/assets/fire-sprinkler-&-suppression/deluge-preaction.png",
   },
 
   {
     name: "Foam Extinguishing System",
     description: `Firefighting foams are used primarily to combat flammable and combustible liquid fuel fires. Due to the growing global concern about PFAS, it is advisable to only use these systems when absolutely necessary.`,
     link: "/foam-extinguishing-system",
-    image: "./src/assets/fire-sprinkler-&-suppression/foam-extinguishing-system.png",
+    image: "@/assets/fire-sprinkler-&-suppression/foam-extinguishing-system.png",
   },
 
   {
@@ -137,7 +137,7 @@ const productsServices = reactive([
           exercitationem, quidem quis doloribus beatae, iure dolores, assumenda molestias
           quaerat eum.`,
     link: "/special-hazards",
-    image: "./src/assets/fire-sprinkler-&-suppression/special-hazards.png",
+    image: "@/assets/fire-sprinkler-&-suppression/special-hazards.png",
   },
 ]);
 </script>
