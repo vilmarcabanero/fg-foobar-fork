@@ -49,7 +49,7 @@ export default {
     return {
       contents: [
         {
-          image: "src/assets/header-images/books.png",
+          image: "@/assets/header-images/books.png",
           // link: '/testimonials'
           mainText: "Safeguard Your Building and Save Money",
           subText:
@@ -60,7 +60,7 @@ export default {
         },
 
         {
-          image: "src/assets/header-images/woman-corporate-attire.png",
+          image: "@/assets/header-images/woman-corporate-attire.png",
           // link: '/testimonials',
           mainText: "Free Online Resources",
           subText:
@@ -70,7 +70,7 @@ export default {
           link: "/#",
         },
         {
-          image: "src/assets/header-images/engineer-with-computer.png",
+          image: "@/assets/header-images/engineer-with-computer.png",
           // link: '/testimonials'
           mainText: "Science-Based Fire Safety",
           subText:
