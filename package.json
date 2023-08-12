@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build NPM_TOKEN=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",
     "preview": "vite preview"
   },
   "dependencies": {
