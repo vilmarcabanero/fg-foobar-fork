@@ -54,7 +54,7 @@ import fireSprinkler from '@/assets/products-services/fire-sprinkler.png';
 import fireAlarm from '@/assets/products-services/fire-alarm.png';
 import cleanAgentExtinguisher from '@/assets/fire-sprinkler-&-suppression/clean-agent-extinguisher.png';
 import standpipeAndHoseSystem from '@/assets/fire-sprinkler-&-suppression/standpipe-&-hose-system.png';
-import fireHydrant from '@/assets/fire-sprinkler-&-suppression/fire-hydrant.png"';
+// import fireHydrant from '@/assets/fire-sprinkler-&-suppression/fire-hydrant.png"';
 import firePumps from "@/assets/fire-sprinkler-&-suppression/fire-pumps.png";
 import delugePreaction from "@/assets/fire-sprinkler-&-suppression/deluge-preaction.png";
 import foamExtinguishingSystem from "@/assets/fire-sprinkler-&-suppression/foam-extinguishing-system.png";
@@ -110,7 +110,7 @@ const productsServices = reactive([
           areas for firefighters to access a water source. Its purpose is to promptly
           provide the necessary water for firefighters to put out fires.`,
     link: "/fire-hydrant",
-    image: fireHydrant,
+    image: "",
   },
 
   {
