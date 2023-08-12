@@ -42,6 +42,24 @@ import { ref, watch, onMounted, onBeforeUnmount } from "vue";
 import { VueperSlides, VueperSlide } from "vueperslides";
 import { useRoute } from "vue-router";
 
+import ceva from "@/assets/feature-projects-images/ceva-logistics-inc.png";
+import molito from "@/assets/feature-projects-images/molito-complex.png";
+import msl from "@/assets/feature-projects-images/msl-hub.png";
+import oneWilson from "@/assets/feature-projects-images/one-wilson-square.png";
+import dominosPizza from "@/assets/feature-projects-images/dominos-pizza.png";
+import pricon from "@/assets/feature-projects-images/pricon-microelectronics-inc.png";
+import primeSales from "@/assets/feature-projects-images/prime-sales-inc.png";
+import seda from "@/assets/feature-projects-images/seda-nuvali.png";
+import gruppoEms from "@/assets/feature-projects-images/gruppo-ems-inc.png";
+import clifton from "@/assets/feature-projects-images/tagaytay-clifton-resort-suites.png";
+import ayala from "@/assets/feature-projects-images/the-columns-ayala.png";
+import toyotaIsabela from "@/assets/feature-projects-images/toyota-cordon-isabela.png";
+import clifton from "@/assets/feature-projects-images/tagaytay-clifton-resort-suites.png";
+import aguila from "@/assets/feature-projects-images/PL-Aguila-Manufacturing-Inc.png";
+import toyotaTuguegarao from "@/assets/feature-projects-images/toyota-tuguegarao.png";
+import victoriaTowes from "@/assets/feature-projects-images/victoria-towers.png";
+
+
 const route = useRoute();
 const visibleSlides = ref(4);
 const slideRatio = ref(1 / 4);
@@ -49,53 +67,53 @@ const slideRatio = ref(1 / 4);
 
 const contents = ref([
   {
-    image: "src/assets/feature-projects-images/ceva-logistics-inc.png",
+    image: ceva,
   },
 
   {
-    image: "src/assets/feature-projects-images/molito-complex.png",
+    image: molito,
   },
   {
-    image: "src/assets/feature-projects-images/msl-hub.png",
+    image: msl,
   },
   {
-    image: "src/assets/feature-projects-images/one-wilson-square.png",
-  },
-
-  {
-    image: "src/assets/feature-projects-images/dominos-pizza.png",
-  },
-  {
-    image: "src/assets/feature-projects-images/pricon-microelectronics-inc.png",
-  },
-  {
-    image: "src/assets/feature-projects-images/prime-sales-inc.png",
-  },
-  {
-    image: "src/assets/feature-projects-images/seda-nuvali.png",
+    image: oneWilson,
   },
 
   {
-    image: "src/assets/feature-projects-images/gruppo-ems-inc.png",
+    image: dominosPizza,
   },
   {
-    image: "src/assets/feature-projects-images/tagaytay-clifton-resort-suites.png",
+    image: pricon,
+  },
+  {
+    image: primeSales,
+  },
+  {
+    image: seda,
   },
 
   {
-    image: "src/assets/feature-projects-images/the-columns-ayala.png",
+    image: gruppoEms,
   },
   {
-    image: "src/assets/feature-projects-images/toyota-cordon-isabela.png",
+    image: clifton,
+  },
+
+  {
+    image: ayala,
   },
   {
-    image: "src/assets/feature-projects-images/PL-Aguila-Manufacturing-Inc.png",
+    image: toyotaIsabela,
   },
   {
-    image: "src/assets/feature-projects-images/toyota-tuguegarao.png",
+    image: aguila,
   },
   {
-    image: "src/assets/feature-projects-images/victoria-towers.png",
+    image: toyotaTuguegarao,
+  },
+  {
+    image: victoriaTowes,
   },  
 ]);
 
