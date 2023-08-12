@@ -37,6 +37,9 @@
 <script>
 import { VueperSlides, VueperSlide } from "vueperslides";
 import Button from "../../global-components/ButtonComponent.vue";
+import booksImage from '@/assets/header-images/books.png';
+import womanCorporate from '@/assets/header-images/woman-corporate-attire.png';
+import engineer from '@/assets/header-images/engineer-with-computer.png';
 
 export default {
   components: {
@@ -49,7 +52,7 @@ export default {
     return {
       contents: [
         {
-          image: require("@/assets/header-images/books.png"),
+          image: booksImage,
           // link: '/testimonials'
           mainText: "Safeguard Your Building and Save Money",
           subText:
@@ -60,7 +63,7 @@ export default {
         },
 
         {
-          image: require("@/assets/header-images/woman-corporate-attire.png"),
+          image: womanCorporate,
           // link: '/testimonials',
           mainText: "Free Online Resources",
           subText:
@@ -70,7 +73,7 @@ export default {
           link: "/#",
         },
         {
-          image: require("@/assets/header-images/engineer-with-computer.png"),
+          image: engineer,
           // link: '/testimonials'
           mainText: "Science-Based Fire Safety",
           subText:
