@@ -3,8 +3,6 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 justify-items-center gap-9 lg:gap-[100px] 2xl:gap-[160px]">
       <div
         class="flex flex-col items-center"
-        data-aos="fade-right"
-        data-aos-duration="1000"
       >
         <div class="mb-[16px] sm:mb-[8px] text-center">
           <h1 class="text-3xl font-bold relative">
@@ -61,8 +59,6 @@
 
       <div
         class="flex flex-col items-center"
-        data-aos="fade-left"
-        data-aos-duration="1000"
       >
         <div class="mb-[26px] ">
           <h1 class="text-3xl font-bold relative">
